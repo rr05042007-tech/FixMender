@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "FixMender",
+    "slug": "fixmender",
+    "scheme": "fixmender",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "android": {
+      "package": "com.fixmender.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.fixmender.app"
+    }
+  }
+}
