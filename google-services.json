@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "457843581712",
+    "project_id": "fixmender-e403a",
+    "storage_bucket": "fixmender-e403a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457843581712:android:a68477e6b887a6ab91fb95",
+        "android_client_info": {
+          "package_name": "com.fixmender.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457843581712-kd5rfc9hm4hi56osgk5cq0e62l16m532.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzI-ERnW1oMbz58UIza-8RXO2_y55Sy1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457843581712-kd5rfc9hm4hi56osgk5cq0e62l16m532.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
