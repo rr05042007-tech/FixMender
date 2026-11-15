@@ -9,7 +9,7 @@ client uses Expo/React Native; the API uses Node.js, Express, and PostgreSQL.
 - Node.js and npm
 - PostgreSQL database
 - Expo Go on a physical phone for mobile preview
-- Phone and development computer connected to the same network
+- Phone and  development computer connected to the same network
 
 ## Run locally
 
