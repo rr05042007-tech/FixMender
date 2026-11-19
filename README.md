@@ -29,6 +29,7 @@ details and the API URL used by the app. For a phone preview, the API URL must
 use the computer's LAN IP address, not `localhost`, for example:
 
 ```text
+DATABASE_URL=postgresql://neondb_owner:@ep-solitary-bonus-bdm7m2ni-pooler.c-8.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require
 EXPO_PUBLIC_API_BASE_URL=http://192.168.1.25:5000/api
 ```
 
@@ -36,6 +37,10 @@ Use your computer's actual local IP address. Keep database credentials in
 `.env`; do not commit that file.
 
 ### 3. Apply database migrations
+
+This applies pending SQL files from `server/migrations` in filename order and
+records completed migrations in the database. The initial migration creates
+the SOS requests table.
 
 From the project root:
 

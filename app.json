@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "FixMender",
+    "slug": "fixmender",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.fixmender.app",
+      "googleServicesFile": "./google-services.json"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fixmender-app"
+      }
+    }
+  }
+}
