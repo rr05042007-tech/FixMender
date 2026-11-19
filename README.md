@@ -73,8 +73,7 @@ Useful commands:
 | Command | Purpose |
 | --- | --- |
 | `npm run typecheck` | Type-check the app |
-| `npm test` | Run app tests |
-| `npm --prefix server test` | Run API tests |
+| `npm test` | Run API tests |
 | `npm run build` | Export the Android app bundle |
 
 ## Current progress
@@ -82,8 +81,8 @@ Useful commands:
 This repository contains **one project: FixMender**. The project is in active
 development; a reliable overall completion percentage cannot be calculated
 without an agreed scope and acceptance checklist. The latest recorded
-validation passed: 32 API tests, 16 app tests, TypeScript type-checking, and an
-Android Expo export.
+validation passed: the API migration test, TypeScript type-checking, Expo
+dependency compatibility checks, and an Android Expo export.
 
 ### Completed implementation areas
 

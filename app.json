@@ -5,7 +5,9 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "package": "com.fixmender.app",
       "googleServicesFile": "./google-services.json"
@@ -14,6 +16,9 @@
       "eas": {
         "projectId": "fixmender-app"
       }
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
